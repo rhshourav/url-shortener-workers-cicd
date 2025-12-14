@@ -1,0 +1,8 @@
+-- Migration number: 0001 	 2025-12-14T13:01:40.711Z
+CREATE TABLE links (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  code TEXT UNIQUE NOT NULL,
+  url TEXT NOT NULL,
+  clicks INTEGER DEFAULT 0,
+  expires_at DATETIME
+);

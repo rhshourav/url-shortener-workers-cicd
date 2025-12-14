@@ -1,0 +1,12 @@
+{
+  "name": "url-shortener-worker",
+  "main": "src/index.ts",
+  "compatibility_date": "2025-12-13",
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "url_shortener_db",
+      "database_id": "02a5142b-a039-439d-a9ea-c6292dbc5498"
+    }
+  ]
+}
